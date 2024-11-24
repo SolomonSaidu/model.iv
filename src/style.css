@@ -1,0 +1,96 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+    display: flex;
+    padding: 12px;
+    justify-content: space-between;
+    width: 85vw;
+    margin: 0px auto;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.228);
+}
+
+.header > button{
+    background: rgb(255, 0, 43);
+    color: white;
+    font-weight: 700;
+    border: none;
+    padding: 6px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: small;
+}
+
+.content{
+    width: fit-content;
+    margin: 0px auto;
+    padding-top: 40px;
+}
+
+form{
+    width: 280px;
+    display: grid;
+}
+
+.content > form > .select{
+    padding: 10px;
+    /* width: 280px; */
+    border-radius: 10px;
+    font-weight: 700;
+    background: rgb(255, 0, 43);
+    color: white;
+    border: none;
+}
+
+.select > option{
+    border-radius: 8px;
+    background: white;
+    color: rgb(255, 0, 43);
+    font-weight: 600;
+}
+
+.input{
+    padding: 10px;
+    /* width: 280px; */
+    border-radius: 10px;
+    background: rgba(255, 0, 43, 0.086);
+    outline: none;
+    border: 2px solid rgb(255, 0, 43);
+    color:rgb(255, 0, 43);
+    font-weight: 600;
+}
+
+.btns{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.run{
+    background: rgb(255, 0, 43);
+    border: none;
+    color: white;
+    padding: 8px;
+    width: 128px;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.clear{
+    background: rgba(255, 0, 43, 0.097);
+    border: none;
+    color: rgb(255, 0, 43);
+    padding: 8px;
+    width: 128px;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.output-div{
+    width: 250px;
+}
